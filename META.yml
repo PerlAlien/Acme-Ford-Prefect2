@@ -25,8 +25,8 @@ requires:
 resources:
   IRC: irc://irc.perl.org/#native
   MailingList: https://groups.google.com/forum/#!forum/perl5-alien
-  bugtracker: http://github.com/Perl5-Alien/Alien-Base-Extras/issues
+  bugtracker: http://github.com/Perl5-Alien/Acme-Ford-Prefect/issues
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/Perl5-Alien/Alien-Base-Extras
+  repository: http://github.com/Perl5-Alien/Acme-Ford-Prefect
 version: '0.029'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

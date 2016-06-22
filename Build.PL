@@ -34,8 +34,8 @@ my $builder = Module::Build->new(
     extra_linker_flags   => $libs, 
     meta_merge => {
       resources  => {
-        repository => "http://github.com/Perl5-Alien/Alien-Base-Extras",
-        bugtracker => "http://github.com/Perl5-Alien/Alien-Base-Extras/issues",
+        repository => "http://github.com/Perl5-Alien/Acme-Ford-Prefect",
+        bugtracker => "http://github.com/Perl5-Alien/Acme-Ford-Prefect/issues",
         x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
         x_IRC => "irc://irc.perl.org/#native",
       },

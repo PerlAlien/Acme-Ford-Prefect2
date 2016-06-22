@@ -54,7 +54,7 @@ L<Acme::Alien::DontPanic>
 
 =head1 SOURCE REPOSITORY
 
-L<http://github.com/Perl5-Alien/Alien-Base-Extras>
+L<http://github.com/Perl5-Alien/Acme-Ford-Prefect>
 
 =head1 AUTHOR
 

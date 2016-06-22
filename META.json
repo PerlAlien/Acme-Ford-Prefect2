@@ -46,13 +46,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/Perl5-Alien/Alien-Base-Extras/issues"
+         "web" : "http://github.com/Perl5-Alien/Acme-Ford-Prefect/issues"
       },
       "license" : [
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
-         "url" : "http://github.com/Perl5-Alien/Alien-Base-Extras"
+         "url" : "http://github.com/Perl5-Alien/Acme-Ford-Prefect"
       },
       "x_IRC" : "irc://irc.perl.org/#native",
       "x_MailingList" : "https://groups.google.com/forum/#!forum/perl5-alien"
