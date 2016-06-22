@@ -1,0 +1,11 @@
+/Build
+/Build.bat
+/MYMETA.*
+/_alien
+/_share
+/_build
+/blib
+/lib/Acme/Ford/Prefect.c
+/lib/Acme/Ford/Prefect.o
+/Acme-Ford-Prefect-*
+*.bak
