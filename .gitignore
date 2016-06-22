@@ -1,8 +1,6 @@
 /Build
 /Build.bat
 /MYMETA.*
-/_alien
-/_share
 /_build
 /blib
 /lib/Acme/Ford/Prefect.c
