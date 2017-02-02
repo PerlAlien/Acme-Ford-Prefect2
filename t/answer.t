@@ -3,9 +3,9 @@ use warnings;
 
 use Test::More tests => 3;
 
-use Acme::Ford::Prefect;
+use Acme::Ford::Prefect2;
 
-is( Acme::Ford::Prefect::answer(), 42, 'Ford Prefect knows the answer' );
+is( Acme::Ford::Prefect2::answer(), 42, 'Ford Prefect knows the answer' );
 
 SKIP: {
   skip 'test requires share install', 2 if Acme::Alien::DontPanic->install_type eq 'system';

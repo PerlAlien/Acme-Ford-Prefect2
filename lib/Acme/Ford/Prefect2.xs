@@ -4,7 +4,7 @@
 
 #include "libdontpanic.h"
 
-MODULE = Acme::Ford::Prefect		PACKAGE = Acme::Ford::Prefect	
+MODULE = Acme::Ford::Prefect2		PACKAGE = Acme::Ford::Prefect2
 
 PROTOTYPES: DISABLE
 

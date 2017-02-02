@@ -1,4 +1,4 @@
-package Acme::Ford::Prefect;
+package Acme::Ford::Prefect2;
 
 use strict;
 use warnings;
@@ -15,16 +15,16 @@ $VERSION = eval $VERSION;
 
 =head1 NAME
 
-Acme::Ford::Prefect - Test Module for Alien::Base
+Acme::Ford::Prefect2 - Test Module for Alien::Base
 
 =head1 SYNOPSIS
 
  use strict;
  use warnings;
- use Acme::Ford::Prefect;
+ use Acme::Ford::Prefect2;
  use Test::More tests => 1;
 
- is Acme::Ford::Prefect::answer(), 42;
+ is Acme::Ford::Prefect2::answer(), 42;
  # if 42 is returned then Acme::Alien::DontPanic
  # properly provided the C library
 
@@ -54,7 +54,7 @@ L<Acme::Alien::DontPanic>
 
 =head1 SOURCE REPOSITORY
 
-L<http://github.com/Perl5-Alien/Acme-Ford-Prefect>
+L<http://github.com/Perl5-Alien/Acme-Ford-Prefect2>
 
 =head1 AUTHOR
 

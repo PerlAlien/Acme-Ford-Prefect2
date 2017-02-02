@@ -3,7 +3,7 @@
 /MYMETA.*
 /_build
 /blib
-/lib/Acme/Ford/Prefect.c
-/lib/Acme/Ford/Prefect.o
+/lib/Acme/Ford/Prefect2.c
+/lib/Acme/Ford/Prefect2.o
 /Acme-Ford-Prefect-*
 *.bak

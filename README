@@ -1,13 +1,13 @@
 NAME
-    Acme::Ford::Prefect - Test Module for Alien::Base
+    Acme::Ford::Prefect2 - Test Module for Alien::Base
 
 SYNOPSIS
      use strict;
      use warnings;
-     use Acme::Ford::Prefect;
+     use Acme::Ford::Prefect2;
      use Test::More tests => 1;
 
-     is Acme::Ford::Prefect::answer(), 42;
+     is Acme::Ford::Prefect2::answer(), 42;
      # if 42 is returned then Acme::Alien::DontPanic
      # properly provided the C library
 

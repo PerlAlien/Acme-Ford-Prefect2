@@ -2,15 +2,15 @@ use strict;
 use warnings;
 
 use Module::Build;
-use Acme::Alien::DontPanic;
+use Acme::Alien::DontPanic2;
 
-my $dontpanic = Acme::Alien::DontPanic->new;
+my $dontpanic = Acme::Alien::DontPanic2->new;
 
 my $cflags = $dontpanic->cflags;
 my $libs   = $dontpanic->libs;
 
 my $builder = Module::Build->new(
-    module_name       => 'Acme::Ford::Prefect',
+    module_name       => 'Acme::Ford::Prefect2',
     dist_abstract     => 'Part of the test framework for Alien::Base',
     dist_author       => [
       'Graham Ollis <plicease@cpan.org>',
@@ -19,7 +19,7 @@ my $builder = Module::Build->new(
     license           => 'perl',
     configure_requires => {
       'Module::Build' => '0.38',
-      'Acme::Alien::DontPanic' => '0.031',
+      'Acme::Alien::DontPanic2' => '0.031',
     },
     test_requires => {
       'Test::More'    => 0,
@@ -34,8 +34,8 @@ my $builder = Module::Build->new(
     extra_linker_flags   => $libs, 
     meta_merge => {
       resources  => {
-        repository => "http://github.com/Perl5-Alien/Acme-Ford-Prefect",
-        bugtracker => "http://github.com/Perl5-Alien/Acme-Ford-Prefect/issues",
+        repository => "http://github.com/Perl5-Alien/Acme-Ford-Prefect2",
+        bugtracker => "http://github.com/Perl5-Alien/Acme-Ford-Prefect2/issues",
         x_MailingList => 'https://groups.google.com/forum/#!forum/perl5-alien',
         x_IRC => "irc://irc.perl.org/#native",
       },
