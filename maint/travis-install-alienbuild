@@ -1,4 +1,7 @@
-#!/bin/sh
+#!/bin/bash
+
+set -euo pipefail
+IFS=$'\n\t'
 
 git clone --depth 2 https://github.com/plicease/Alien-Build.git /tmp/Alien-Build
 cd /tmp/Alien-Build
@@ -6,7 +9,7 @@ cd /tmp/Alien-Build
 dzil authordeps --missing | cpanm -n
 dzil listdeps   --missing | cpanm -n
 
-dzil install
+dzil install --install-command 'cpanm -n .'
 
 git clone --depth 2 https://github.com/plicease/Alien-Build-MB.git /tmp/Alien-Build-MB
 cd /tmp/Alien-Build-MB
@@ -14,7 +17,7 @@ cd /tmp/Alien-Build-MB
 dzil authordeps --missing | cpanm -n
 dzil listdeps   --missing | cpanm -n
 
-dzil install
+dzil install --install-command 'cpanm -n .'
 
 cpanm Dist::Zilla
 
@@ -24,7 +27,7 @@ cd /tmp/Dist-Zilla-Plugin-AlienBuild
 dzil authordeps --missing | cpanm -n
 dzil listdeps   --missing | cpanm -n
 
-dzil install
+dzil install --install-command 'cpanm -n .'
 
 git clone --depth 2 https://github.com/perl5-alien/Acme-Alien-DontPanic2.git /tmp/Acme-Alien-DontPanic2
 cd /tmp/Acme-Alien-DontPanic2
@@ -32,4 +35,4 @@ cd /tmp/Acme-Alien-DontPanic2
 dzil authordeps --missing | cpanm -n
 dzil listdeps   --missing | cpanm -n
 
-dzil install
+dzil install --install-command 'cpanm -n .'
