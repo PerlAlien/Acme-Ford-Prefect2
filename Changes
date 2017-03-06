@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.2100    2017-03-06 00:28:05 -0500
+  - Require Acme::Alien::DontPanic2 0.2100 (Alien::Build 0.21)
+
 0.1900    2017-03-02 06:45:50 +1100
   - Require Acme::Alien::DontPanic2 0.1100 (Alien::Build 0.19)
 
