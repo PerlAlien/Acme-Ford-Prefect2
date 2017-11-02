@@ -3,7 +3,7 @@ package mymm;
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
-use Alien::Base::Wrapper qw( Acme::Alien::DontPanic !export );
+use Alien::Base::Wrapper qw( Acme::Alien::DontPanic2 !export );
 
 sub myWriteMakefile_as_configure_requires
 {
@@ -19,10 +19,10 @@ sub myWriteMakefile_as_build_requires
   my(%args) = @_;
   WriteMakefile(
     %args,
-    CC => '$(FULLPERL) -MAlien::Base::Wrapper=Acme::Alien::DontPanic -e cc --',
-    LD => '$(FULLPERL) -MAlien::Base::Wrapper=Acme::Alien::DontPanic -e ld --',
+    CC => '$(FULLPERL) -MAlien::Base::Wrapper=Acme::Alien::DontPanic2 -e cc --',
+    LD => '$(FULLPERL) -MAlien::Base::Wrapper=Acme::Alien::DontPanic2 -e ld --',
     BUILD_REQUIRES => {
-      'Acme::Alien::DontPanic' => 0,
+      'Acme::Alien::DontPanic2' => 0,
       'Alien::Base::Wrapper' => 0,
     },
   );
