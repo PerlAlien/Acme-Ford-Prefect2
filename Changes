@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.2901    2017-11-02 02:02:06 -0400
+  - Fix configure time prereqs bug (GH#1)
+
 1.2900    2017-10-30 10:08:08 -0400
   - Require Acme::Alien::DontPanic2 1.2900 (Alien::Build 1.29 Alien::Build::MB 0.05)
   - Migrate to using Alien::Base::Wrapper
