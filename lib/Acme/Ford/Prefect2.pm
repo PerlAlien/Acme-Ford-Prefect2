@@ -21,7 +21,7 @@ $VERSION = eval $VERSION;
  use Test::More tests => 1;
 
  is Acme::Ford::Prefect2::answer(), 42;
- # if 42 is returned then Acme::Alien::DontPanic
+ # if 42 is returned then Acme::Alien::DontPanic2
  # properly provided the C library
 
 =head1 DESCRIPTION
