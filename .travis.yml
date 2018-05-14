@@ -3,8 +3,8 @@ language: perl
 sudo: false
 
 install:
-  - curl https://perl5-alien.github.io/static/travis/install-system-dontpanic.sh | bash -
-  - curl https://perl5-alien.github.io/static/travis/install-system-acme-alien-dontpanic.sh | bash -
+  - curl https://alienfile.org/travis/install-system-dontpanic.sh | bash -
+  - curl https://alienfile.org/travis/install-system-acme-alien-dontpanic.sh | bash -
   - ./maint/travis-install-mods
   - dzil authordeps --missing | cpanm -n
   - dzil listdeps  --missing | cpanm -n
