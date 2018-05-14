@@ -27,7 +27,7 @@ env:
     - LD_LIBRARY_PATH=$HOME/opt/dontpanic/current/lib
     - PKG_CONFIG_PATH=$HOME/opt/dontpanic/current/lib/pkgconfig
     - PERL_CPANM_OPT='--mirror https://cpan.metacpan.org/ --mirror-only'
-    - ALIEN_BASE_NO_ABMB=1
+    - PERL_USE_UNSAFE_INC=0
   matrix:
     - ALIEN_INSTALL_TYPE=share
     - ALIEN_INSTALL_TYPE=system
