@@ -4,14 +4,16 @@ Test Module for Alien::Base + Alien::Build
 
 # SYNOPSIS
 
-    use Test2::V0;
-    use Acme::Ford::Prefect2;
+```perl
+use Test2::V0;
+use Acme::Ford::Prefect2;
 
-    is Acme::Ford::Prefect2::answer(), 42;
-    # if 42 is returned then Acme::Alien::DontPanic2
-    # properly provided the C library
-    
-    done_testing;
+is Acme::Ford::Prefect2::answer(), 42;
+# if 42 is returned then Acme::Alien::DontPanic2
+# properly provided the C library
+
+done_testing;
+```
 
 # DESCRIPTION
 
