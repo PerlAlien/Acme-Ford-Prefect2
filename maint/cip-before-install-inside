@@ -2,16 +2,14 @@
 
 set -ex
 
-mkdir -p ~/tmp/Alien-Build
-cd ~/tmp/Alien-Build
+cd $(mktemp -d)
 curl -L https://github.com/Perl5-Alien/Alien-Build/tarball/master | tar zxf -
 cd $(ls -1)
 dzil-dzil authordeps --missing | dzil-cpanm -n
 dzil-dzil install --install-command 'dzil-cpanm -n .'
 
-mkdir -p ~/tmp/Acme-Ford-Prefect2
-cd ~/tmp/Acme-Ford-Prefect2
-curl -L https://github.com/Perl5-Alien/Acme-Ford-Prefect2/tarball/master | tar zxf -
+cd $(mktemp -d)
+curl -L https://github.com/Perl5-Alien/Acme-Alien-DontPanic2/tarball/master | tar zxf -
 cd $(ls -1)
 dzil-dzil authordeps --missing | dzil-cpanm -n
 dzil-dzil install --install-command 'dzil-cpanm -n .'
