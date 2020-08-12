@@ -1,4 +1,4 @@
-# Acme::Ford::Prefect2 [![Build Status](https://secure.travis-ci.org/Perl5-Alien/Acme-Ford-Prefect2.png)](http://travis-ci.org/Perl5-Alien/Acme-Ford-Prefect2)
+# Acme::Ford::Prefect2 [![Build Status](https://travis-ci.org/PerlAlien/Acme-Ford-Prefect2.svg)](http://travis-ci.org/PerlAlien/Acme-Ford-Prefect2)
 
 Test Module for Alien::Base + Alien::Build
 
@@ -35,7 +35,7 @@ Returns 42.
 
 # SOURCE REPOSITORY
 
-[http://github.com/Perl5-Alien/Acme-Ford-Prefect2](http://github.com/Perl5-Alien/Acme-Ford-Prefect2)
+[http://github.com/PerlAlien/Acme-Ford-Prefect2](http://github.com/PerlAlien/Acme-Ford-Prefect2)
 
 # AUTHORS
 

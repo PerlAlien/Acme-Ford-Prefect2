@@ -2,14 +2,12 @@ package Acme::Ford::Prefect2;
 
 use strict;
 use warnings;
+use XSLoader;
 
 # ABSTRACT: Test Module for Alien::Base + Alien::Build
 # VERSION
 
-require DynaLoader;
-our @ISA = 'DynaLoader';
-__PACKAGE__->bootstrap($VERSION);
-$VERSION = eval $VERSION;
+XSLoader::load(__PACKAGE__, $VERSION);
 
 1;
 
@@ -56,7 +54,7 @@ L<Acme::Alien::DontPanic2>
 
 =head1 SOURCE REPOSITORY
 
-L<http://github.com/Perl5-Alien/Acme-Ford-Prefect2>
+L<http://github.com/PerlAlien/Acme-Ford-Prefect2>
 
 =cut
 
