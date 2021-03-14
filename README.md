@@ -1,4 +1,4 @@
-# Acme::Ford::Prefect2 [![Build Status](https://travis-ci.org/PerlAlien/Acme-Ford-Prefect2.svg)](http://travis-ci.org/PerlAlien/Acme-Ford-Prefect2)
+# Acme::Ford::Prefect2 ![linux](https://github.com/PerlAlien/Acme-Ford-Prefect2/workflows/linux/badge.svg)
 
 Test Module for Alien::Base + Alien::Build
 
