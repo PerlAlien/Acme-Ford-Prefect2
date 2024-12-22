@@ -1,3 +1,5 @@
 /Acme-Ford-Prefect2-*
 /.build
 *.swp
+*.old
+*.orig
